@@ -4,12 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>康宸 | Personal Website</title>
-  <link rel="stylesheet" href="style.css" />
+  <!-- 引入思源黑體提升美感 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
 
   <section class="hero">
     <div class="container hero-content">
+      <!-- 新增：個人圖片區塊 -->
+      <div class="hero-image-wrapper">
+        <!-- src 替換成你的圖片路徑，例如 "images/profile.jpg" -->
+        <img src="/685461869be47a0a7a17772ef7edac59_2901822734053913222.webp" alt="康宸的個人照" class="hero-img" />
+      </div>
       <h1 class="hero-name">康宸 | Kang-Chen</h1>
       <p class="hero-tagline">
         台北大學法律系學生，持續打造有價值的作品
@@ -56,6 +65,6 @@
     </div>
   </section>
 
-  <script src="main.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>
